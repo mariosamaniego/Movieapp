@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-black {
+  background-color: #4E4E4E;
+}
+.bg-black h1 {
+  color: #fff;
+  padding: 5px;
+}
+
+.search {
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+.card {
+  border: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+.card-body .card-title {
+  margin-bottom: -20px;
+  font-size: 15px;
+  font-weight: bold;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+}
+img.movie-poster {
+  height: 300px;
+  
+  
+}
+
+body{
+  background: linear-gradient(70deg, black, white);
+}
+
+p{
+  color: #fff;
+  
+}
+span{
+  color: #fff;
+}
+h1{
+  font-style: italic;
+  font-weight: 100;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
