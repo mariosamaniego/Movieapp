@@ -36,6 +36,7 @@ const Search = ({ search }) => {
           </div>
         </div>
         </form>
+		
        
       </div>
     </div>
