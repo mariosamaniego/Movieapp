@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Search from "./components/Search";
 import Movie from "./components/Movie";
 
-const MOVIE_API = "http://www.omdbapi.com/?s=pokemon&apikey=b6e9d284";
+const MOVIE_API = "https://www.omdbapi.com/?s=pokemon&apikey=b6e9d284";
 
 const App = () => {
   const [movies, setMovies] = useState([]);
@@ -22,8 +22,8 @@ const App = () => {
     setLoading(true);
     fetch(
       searchValue !== ""
-        ? `http://www.omdbapi.com/?s=${searchValue}&apikey=b6e9d284`
-        : `http://www.omdbapi.com/?s=pokemon&apikey=b6e9d284`
+        ? `https://www.omdbapi.com/?s=${searchValue}&apikey=b6e9d284`
+        : `https://www.omdbapi.com/?s=pokemon&apikey=b6e9d284`
     )
       .then(res => res.json())
       .then(jsonres => {
